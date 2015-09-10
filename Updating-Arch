@@ -1,0 +1,7 @@
+Updating the System (Offical Repo & AUR)
+----------------------------------------
+
+- Read the official arch news announcements for any suprises :-)
+- sudo pacman -Syu
+- cower -vdu
+- cd into the individual AUR directories and makepkg -sri

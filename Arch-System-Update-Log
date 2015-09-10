@@ -1,0 +1,73 @@
+Date: September 10th, 2015
+NOTE: Downgraded dhcpcd to 6.9.2-1 to be able to connect to Eduroam.
+--------------------------------------------------------------------
+
+[krnekhelesh@nik90 ~]$ sudo pacman -Syu
+:: Synchronizing package databases...
+ core is up to date
+ extra is up to date
+ community is up to date
+ multilib is up to date
+ archlinuxfr is up to date
+:: Starting full system upgrade...
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (28) appstream-0.8.4-1  archlinux-appstream-data-20150830-2  ca-certificates-mozilla-3.20-1  dbus-1.10.0-2  dhcpcd-6.9.3-1
+              ffmpeg-1:2.8-1  glibc-2.22-3  harfbuzz-1.0.3-1  harfbuzz-icu-1.0.3-1  libdbus-1.10.0-2  libdvdnav-5.0.3-1
+              libdvdread-5.0.4-1  libsoxr-0.1.2-1  libteam-1.18-1  libwbclient-4.3.0-1  libxcb-1.11.1-1  mesa-10.6.6-1
+              mesa-libgl-10.6.6-1  nspr-4.10.9-1  nss-3.20-1  pacman-mirrorlist-20150909-1  python-psutil-3.2.1-1
+              python-setuptools-1:18.3.1-1  s-nail-14.8.5-1  smbclient-4.3.0-1  sqlite-3.8.11.1-3  terminator-0.98-1
+              xfsprogs-3.2.4-1
+
+Total Download Size:    17.99 MiB
+Total Installed Size:  172.84 MiB
+Net Upgrade Size:       10.83 MiB
+
+:: Proceed with installation? [Y/n] y
+:: Retrieving packages ...
+ libdvdread-5.0.4-1-x86_64                              87.7 KiB  1655K/s 00:00 [#############################################] 100%
+ libdvdnav-5.0.3-1-x86_64                               51.9 KiB  2.11M/s 00:00 [#############################################] 100%
+ libteam-1.18-1-x86_64                                 148.7 KiB  1652K/s 00:00 [#############################################] 100%
+ libwbclient-4.3.0-1-x86_64                             30.9 KiB  3.02M/s 00:00 [#############################################] 100%
+ smbclient-4.3.0-1-x86_64                                5.6 MiB  2.88M/s 00:02 [#############################################] 100%
+ archlinux-appstream-data-20150830-2-any                 9.2 MiB  3.14M/s 00:03 [#############################################] 100%
+ python-psutil-3.2.1-1-x86_64                           94.1 KiB  3.40M/s 00:00 [#############################################] 100%
+ terminator-0.98-1-any                                   2.7 MiB  2.92M/s 00:01 [#############################################] 100%
+(28/28) checking keys in keyring                                                [#############################################] 100%
+(28/28) checking package integrity                                              [#############################################] 100%
+(28/28) loading package files                                                   [#############################################] 100%
+(28/28) checking for file conflicts                                             [#############################################] 100%
+(28/28) checking available disk space                                           [#############################################] 100%
+( 1/28) upgrading glibc                                                         [#############################################] 100%
+( 2/28) upgrading libdbus                                                       [#############################################] 100%
+( 3/28) upgrading dbus                                                          [#############################################] 100%
+( 4/28) upgrading nspr                                                          [#############################################] 100%
+( 5/28) upgrading appstream                                                     [#############################################] 100%
+( 6/28) upgrading archlinux-appstream-data                                      [#############################################] 100%
+AppStream cache update completed successfully.
+( 7/28) upgrading ca-certificates-mozilla                                       [#############################################] 100%
+( 8/28) upgrading dhcpcd                                                        [#############################################] 100%
+( 9/28) upgrading libsoxr                                                       [#############################################] 100%
+(10/28) upgrading libxcb                                                        [#############################################] 100%
+(11/28) upgrading mesa                                                          [#############################################] 100%
+(12/28) upgrading mesa-libgl                                                    [#############################################] 100%
+(13/28) upgrading ffmpeg                                                        [#############################################] 100%
+New optional dependencies for ffmpeg
+    ladspa: LADSPA filters
+(14/28) upgrading harfbuzz                                                      [#############################################] 100%
+(15/28) upgrading harfbuzz-icu                                                  [#############################################] 100%
+(16/28) upgrading libdvdread                                                    [#############################################] 100%
+(17/28) upgrading libdvdnav                                                     [#############################################] 100%
+(18/28) upgrading libteam                                                       [#############################################] 100%
+(19/28) upgrading libwbclient                                                   [#############################################] 100%
+(20/28) upgrading sqlite                                                        [#############################################] 100%
+(21/28) upgrading nss                                                           [#############################################] 100%
+(22/28) upgrading pacman-mirrorlist                                             [#############################################] 100%
+warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+(23/28) upgrading python-psutil                                                 [#############################################] 100%
+(24/28) upgrading python-setuptools                                             [#############################################] 100%
+(25/28) upgrading s-nail                                                        [#############################################] 100%
+(26/28) upgrading smbclient                                                     [#############################################] 100%
+(27/28) upgrading terminator                                                    [#############################################] 100%
+(28/28) upgrading xfsprogs 

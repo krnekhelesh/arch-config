@@ -1,0 +1,15 @@
+Notes
+-----
+
+September 10th, 2015
+--------------------
+- It seems Evolution is needed to be able to view google calendars in the top panel. Do not uninstall Evolution.
+- Downgraded dhcpcd to 6.2-1 to be able to connect to Eduroam.
+- Consider installing Vocal Podcast Client?
+- Create a document with a list of the gnome-shell add-ons installed.
+
+September 9th, 2015
+-------------------
+- Installed Gnome-Pomodoro App. Seems useful!
+
+

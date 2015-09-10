@@ -1,0 +1,17 @@
+Issue: Font Rendering in Arch Linux (Gnome) is terrible for some websites shown in Firefox.
+Date: August 31st, 2015
+
+Solution
+--------
+
+Wiki Entry: https://wiki.archlinux.org/index.php/Font_configuration#Ubuntu
+Other Resources: https://www.reddit.com/r/archlinux/comments/kt3ir/my_arch_system_looks_ugly_please_help_fonts_might/
+
+Installing the following Ubuntu Patched font-rendering packages,
+- freetype2-ubuntu (conflicts with freetype2)
+- fontconfig-ubuntu (conflicts with fontconfig)
+- cairo-ubuntu (conflicts with cairo)
+
+The conflicted packages were removed. So if any font issues are found, restore the unpatched packages, reinstall the original packages freetype2, cairo, and fontconfig as dependencies (use the --asdeps flag with pacman when reinstalling).They should be in the /var/cache/pacman/pkg folder.
+
+Alos installed, adobe-source-han-sans-otc-fonts, ttf-freefont
