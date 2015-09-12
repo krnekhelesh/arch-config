@@ -3,6 +3,8 @@ Notes
 
 September 12th, 2015
 --------------------
+- Removed sushi (nautilus previewer) as it is clunky and not used at all.
+- Removed archey3 and arch-firefox-search as they seem redundant and useless.
 - Upgrade cower (AUR) and telegram (AUR)
 - Removed gnome-software and its dependencies.
 - Decided to not install vocal as it pulls in several dependencies.
