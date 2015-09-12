@@ -1,6 +1,12 @@
 Notes
 -----
 
+September 12th, 2015
+--------------------
+- Upgrade cower (AUR) and telegram (AUR)
+- Removed gnome-software and its dependencies.
+- Decided to not install vocal as it pulls in several dependencies.
+
 September 10th, 2015
 --------------------
 - It seems Evolution is needed to be able to view google calendars in the top panel. Do not uninstall Evolution.
