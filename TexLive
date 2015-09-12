@@ -1,0 +1,10 @@
+TexLive
+-------
+
+These packages should cover most of the libraries we need to write scientific reports for now.
+
+texlive-science
+texlive-latexextra
+texlive-core
+texlive-bibtexextra
+texlive-bin
