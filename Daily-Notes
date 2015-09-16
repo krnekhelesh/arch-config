@@ -1,6 +1,11 @@
 Notes
 -----
 
+September 17th, 2015
+--------------------
+- Updated packages telegram-desktop-bin (AUR) and google-chrome (AUR)
+- Thinking about updating dhcpcd, network-manager and checking if eduroam still works.
+
 September 13th, 2015
 --------------------
 - Removed terminator as gnome-terminal meets all its needs
