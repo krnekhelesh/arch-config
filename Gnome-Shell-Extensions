@@ -6,7 +6,18 @@ Freon (CPU Temp) - https://extensions.gnome.org/extension/841/freon/
 Media Player Indicator - https://extensions.gnome.org/extension/55/media-player-indicator/
 NetSpeed - https://extensions.gnome.org/extension/104/netspeed/
 Pomodoro - http://gnomepomodoro.org/
-Open Weather - https://extensions.gnome.org/extension/750/openweather/
+Open Weather - https://extensions.gnome.org/extension/750/openweather/ (Requires active connection making it a bit difficult to use)
+
+Gnome-Shell Packages Not used and Removed
+-----------------------------------------
+Gnome-Photos
+sushi
+games (except for chess)
+epiphany
+gnome-weather
+gnome-fonts
+gnome-software
+
 
 
 

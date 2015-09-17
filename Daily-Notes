@@ -3,8 +3,13 @@ Notes
 
 September 17th, 2015
 --------------------
+- Installed unrar to provide multi-part rar extraction capability
 - Updated packages telegram-desktop-bin (AUR) and google-chrome (AUR)
 - Thinking about updating dhcpcd, network-manager and checking if eduroam still works.
+- Don't remove empathy as it somehow stop polari from working
+- Removed gnome-photos as it was useless and replaced it with shotwell.
+- Partial system update: Updated gnome-clocks, gnome-documents, gnome-online-accounts, gnome-photos, bash, babl, caribou, texlive-bibtexextra, texlive-bin texlive-core, texlive-science, totem-plparser, texlive-latexextra
+- Installed feed-reader (AUR)
 
 September 13th, 2015
 --------------------
