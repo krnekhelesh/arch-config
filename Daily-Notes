@@ -1,6 +1,10 @@
 Notes
 -----
 
+September 26th, 2015
+--------------------
+- Removed Spotify and Gnome-shell-pomodora to reduce dependency on AUR and also because they weren't used much.
+
 September 17th, 2015
 --------------------
 - Installed unrar to provide multi-part rar extraction capability
