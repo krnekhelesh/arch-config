@@ -1,6 +1,25 @@
 Notes
 -----
 
+October 3rd, 2015
+-----------------
+- Performed a full system upgrade
+
+October 2nd, 2015
+-----------------
+- Performed a full system upgrade
+
+October 1st, 2015
+-----------------
+- Removed Rhythmbox and Rhythmbox-Alternate-Toolbar plugin
+- Tried lollypop music play but wasnt impressed with it.
+
+September 27th, 2015
+--------------------
+- Perfomed a full system update which updated systemd-226 and dbus. Watch out for any issues.
+- Updated telegram-desktop-bin (AUR)
+- Installed Rhythmbox (Community) and Rhythmbox-Alternate-Toolbar plugin (AUR)
+
 September 26th, 2015
 --------------------
 - Removed Spotify and Gnome-shell-pomodora to reduce dependency on AUR and also because they weren't used much.
