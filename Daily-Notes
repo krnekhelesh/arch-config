@@ -1,9 +1,14 @@
 Notes
 -----
 
+October 4th, 2015
+-----------------
+- Installed corebird (AUR) and ttf-symbola for Native Twitter App :-)
+
 October 3rd, 2015
 -----------------
 - Performed a full system upgrade
+- Installed libappindicator-gtk3 (AUR) and libindicator -gtk3 (AUR) to get telegram background support.
 
 October 2nd, 2015
 -----------------

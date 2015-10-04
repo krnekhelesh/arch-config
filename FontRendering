@@ -14,4 +14,4 @@ Installing the following Ubuntu Patched font-rendering packages,
 
 The conflicted packages were removed. So if any font issues are found, restore the unpatched packages, reinstall the original packages freetype2, cairo, and fontconfig as dependencies (use the --asdeps flag with pacman when reinstalling).They should be in the /var/cache/pacman/pkg folder.
 
-Alos installed, adobe-source-han-sans-otc-fonts, ttf-freefont
+Also installed, adobe-source-han-sans-otc-fonts, ttf-freefont, ttf-symbola
