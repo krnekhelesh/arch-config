@@ -1,5 +1,15 @@
 Notes
 -----
+October 15th, 2015
+------------------
+- Been doing a system update everyday for the past 3-4 days to keep track of Gnome 3.18.1
+- Gedit 3.18 is buggy and has been downgraded to Gedit 3.16 for the time being. It was slow.
+- Updated AUR components
+
+October 8th, 2015
+-----------------
+- Performed a full system upgrade (includes Gnome 3.18!)
+- Installed gnome-twitch-git (AUR) and meson (AUR)
 
 October 4th, 2015
 -----------------
